@@ -1193,7 +1193,7 @@ a {
 }
 
 .hero-slide-1.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e808ac275b0f8959b74bd_Atelier_WIDE_4.1.jpg");
+  background-image: url("../5f71a8b7d5662dd103f849c8/1.jpg");
 }
 
 .hero-slide-1.realm {
@@ -1332,7 +1332,7 @@ a {
 }
 
 .hero-slide-2.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e808b788d356fcd1b4b8a_Atelier_WIDE_12.1.jpg");
+  background-image: url("../5f71a8b7d5662dd103f849c8/2.jpg");
 }
 
 .hero-slide-2.realm {
@@ -2193,7 +2193,7 @@ a {
 }
 
 .hero-slide-3.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e808d7943e0841cb6666e_Atelier_WIDE_9.1.jpg");
+  background-image: url("../5f71a8b7d5662dd103f849c8/3.jpg");
 }
 
 .hero-slide-3.realm {
@@ -2241,9 +2241,7 @@ a {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9beafb5d72fcfbc0557f5e_SFNY_hero_wide_8.jpg");
 }
 
-.hero-slide-4.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e8083dbdc63554a2ba471_Atelier_WIDE_3.1.jpg");
-}
+
 
 .hero-slide-4.realm {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9db32e99175c20007492c3_REALM_WIDE_3.1.jpg");
@@ -2289,10 +2287,7 @@ a {
   background-position: 50% 50%;
 }
 
-.hero-slide-5.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e8081102f9770e7f8ad83_Atelier_WIDE_2.1.jpg");
-  background-position: 50% 50%;
-}
+
 
 .hero-slide-5.realm {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9db331d5fd03747fef7318_REALM_WIDE_8.1.jpg");
@@ -2340,9 +2335,7 @@ a {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9beaf96f56ea6e59ad39f7_SFNY_hero_wide_7.jpg");
 }
 
-.hero-slide-6.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e80892817be0de9837c3d_Atelier_WIDE_7.1.jpg");
-}
+
 
 .hero-slide-6.realm {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9db3284a37c03a344403e4_REALM_WIDE_1.1.jpg");
@@ -2386,10 +2379,7 @@ a {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9beba726c3235d51516445_SFNY_hero_wide_6.1.jpg");
 }
 
-.hero-slide-7.atelier {
-  background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e808904c5938adef7df59_Atelier_WIDE_1.1.jpg");
-  background-position: 0% 50%;
-}
+
 
 .hero-slide-7.realm {
   background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9db32dbd7f506d18487e33_REALM_WIDE_4.1.jpg");
@@ -3848,7 +3838,7 @@ a {
   }
 
   .hero-slide-1.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e821a510ce0ef4a5a62d8_Atelier_VERT_3.jpg");
+    background-image: url("../5f71a8b7d5662dd103f849c8/1.jpg");
   }
 
   .hero-slide-1.mobile.realm {
@@ -3912,7 +3902,7 @@ a {
   }
 
   .hero-slide-2.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e821a3d3527884b76a507_Atelier_VERT_6.1.jpg");
+    background-image: url("../5f71a8b7d5662dd103f849c8/2.jpg");
   }
 
   .hero-slide-2.mobile.realm {
@@ -4228,7 +4218,7 @@ a {
   }
 
   .hero-slide-3.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e8215428c5815dd5bcbc4_Atelier_VERT_5.jpg");
+    background-image: url("../5f71a8b7d5662dd103f849c8/3.jpg");
   }
 
   .hero-slide-3.mobile.realm {
@@ -4272,9 +4262,7 @@ a {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9bf01a566eba6db780a3e4_SFNY_hero_vert_6.jpg");
   }
 
-  .hero-slide-4.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e82177d3d3805db6077ed_Atelier_VERT_4.jpg");
-  }
+  
 
   .hero-slide-4.mobile.realm {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e85707943e0735eb66fba_Realm_VERT_4.jpg");
@@ -4318,9 +4306,7 @@ a {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9bf01e097c52540cb91ae5_SFNY_hero_vert_4.jpg");
   }
 
-  .hero-slide-5.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e821a4d51d19e7e913737_Atelier_VERT_7.jpg");
-  }
+ 
 
   .hero-slide-5.mobile.realm {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e856cc933a03fc515f624_Realm_VERT_1.jpg");
@@ -4364,9 +4350,7 @@ a {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9bf01fa3001d2751bab964_SFNY_hero_vert_5.jpg");
   }
 
-  .hero-slide-6.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e8217102f9717bef8aea2_Atelier_VERT_2.jpg");
-  }
+  
 
   .hero-slide-6.mobile.realm {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e85704a37c09fca45ad0a_Realm_VERT_3.jpg");
@@ -4406,9 +4390,7 @@ a {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9beaf64b4f797633b531fb_SFNY_hero_wide_1.jpg");
   }
 
-  .hero-slide-7.mobile.atelier {
-    background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e8217a96472e9a1fb1d38_Atelier_VERT_1.jpg");
-  }
+
 
   .hero-slide-7.mobile.hape {
     background-image: url("https://uploads-ssl.webflow.com/5f71a8b7d5662dd103f849c8/5f9e87f99cb409791d0d83d4_HH_VERT_7.jpg");
