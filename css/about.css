@@ -1,0 +1,209 @@
+:root {
+    --gutter: 2%;
+    --column-width: 32%;
+    --grey: #919191;
+    --serif: "Genath",serif;
+    --sans-serif: 'Sohne',sans-serif;
+    --font-large: 32px;
+    --font-medium-large: 25px;
+    --font-medium: 16px;
+    --font-small: 12px;
+    --font-x-small: 9px;
+    --font-large-h: .95em;
+    --font-medium-large-h: .96;
+    --font-medium-h: 1.3em;
+    --font-small-h: 1.4em;
+    --font-large-w: normal;
+    --font-medium-large-w: normal;
+    --font-medium-w: .22px;
+    --font-small-w: .9px;
+}
+.grid-6 {
+    display: grid;
+    column-gap: var(--gutter);
+    grid-template-columns: repeat(6, 1fr);
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+    width: auto;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.grid-4 {
+    display: grid;
+    column-gap: var(--gutter);
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+    width: auto;
+    margin: auto;
+}
+.grid-3 {
+    display: grid;
+    column-gap: var(--gutter);
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
+    width: auto;
+    margin: auto;
+}
+.project-client {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}
+.project-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}
+.project {
+    margin-bottom: 80px;
+}
+.project .project-client {
+    display: flex;
+    flex-direction: column;
+}
+.project .project-services {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+}
+.project h2 {
+    font-family: var(--serif);
+    font-size: var(font-large);
+    line-height: var(--font-large-h);
+    text-transform: inherit;
+}
+.project h3 {
+    font-size: var(--font-small);
+    line-height: var(--font-small-h);
+    letter-spacing: var(--font-small-w);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+.project h3:first-child {
+    padding-top: 0;
+}
+.about-top-section > div {
+    margin-bottom: 20px;
+}
+.about-spec {
+    margin-bottom: 20px;
+}
+.about-founder span,
+.about-future span,
+.about-spec span {
+    font-size: var(--font-medium);
+    line-height: var(--font-medium-h);
+    letter-spacing: var(--font-medium-w);
+}
+.about-spec-future {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column;
+}
+.about-founder {
+    grid-column-end: span 3;
+}
+.about-spec-future {
+    grid-column-end: span 3;
+}
+.about-services {
+
+    font-size: var(--font-small);
+    line-height: var(--font-small-h);
+    letter-spacing: var(--font-small-w);
+}
+
+.about-founder h3{
+    font-family: Canela, sans-serif !important;
+font-size: 2.5vw;
+line-height: 150%;
+font-weight: 300;
+text-align: left;
+text-transform: none;
+}
+.about-spec-future h3{
+    font-family: Canela, sans-serif  !important;
+    font-size: 2.2vw;
+    line-height: 150%;
+    font-weight: 300;
+    text-align: left;
+    text-transform: none;
+}
+
+.about-services h3{
+    font-family: 'Wulkan Display', 'Palatino Linotype', sans-serif;
+font-size: 1.5rem;
+line-height: 150%;
+}
+.about-service:first-of-type {
+    grid-column-start: 1;
+}
+@media only screen and (max-width: 1050px) {
+    .project-client {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-services {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 600px) {
+    :root {
+        --gutter: 4%;
+        --font-large: 23px;
+        --font-medium-large: 20px;
+        --font-medium: 18px;
+        --font-small: 14px;
+        --font-medium-w: 0.5px;
+        --column-width: 100%;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .desktop {
+        display: none;
+    }
+    .project {
+        margin-bottom: 25px;
+    }
+    .about-spec-future {
+        display: block;
+    }
+    .about-spec-future div:first-child {
+        padding-bottom: 0;
+        margin-bottom: 40px;
+    }
+    .about-founder {
+        margin-bottom: 40px;
+    }
+    .about-founder h3,
+    .about-future h3 {
+        text-align: left;
+    }
+    .about-future {
+        font-size: var(--font-medium);
+        line-height: var(--font-medium-h);
+        letter-spacing: var(--font-medium-w);
+        margin-bottom: 50px;
+    }
+    .about-services {
+        display: block;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .about-service h3 {
+        margin-bottom: 4px;
+    }
+    .about-service span {
+        display: inline-block;
+        width: 10px;
+    }
+    .about-service span::after {
+        content: "+";
+    }
+}

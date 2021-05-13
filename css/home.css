@@ -1,0 +1,134 @@
+@media (min-width:992px) {
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="92b9961c-484d-829e-4d7e-41bde80bb835"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="746a111c-0925-cbf1-cc20-faaee1333dee"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="56cb4a20-395b-0cbf-7cd1-5e9c9065b497"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="00d5d16e-9bbb-a4f9-e3b1-5cb09465f1e1"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="91dec269-ae02-c60e-aa53-991e400c813f"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="3dd71108-e9d8-b248-5e39-4ebc2e8900bd"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="0dae7c44-2c3e-66c2-83a4-e3ba1e4511d2"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="5ad5bb7c-ace8-3926-a721-adcf26216f6e"] {
+      display: none;
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="e2cd5146-adc9-cfed-4558-006de7984fa3"] {
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      cursor: default;
+    }
+
+    .high-five-cursor-div {
+      display: none;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+      cursor: default;
+    }
+
+    .high-five-cursor-div {
+      display: none;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+  
+ /* Blend modes */
+
+ .mbm-normal {
+    mix-blend-mode: normal;
+  }
+
+  .mbm-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .mbm-screen {
+    mix-blend-mode: screen;
+  }
+
+  .mbm-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .mbm-darken {
+    mix-blend-mode: darken;
+  }
+
+  .mbm-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .mbm-color-dodge {
+    mix-blend-mode: color-dodge
+  }
+
+  .mbm-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .mbm-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .mbm-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .mbm-difference {
+    mix-blend-mode: difference;
+  }
+
+  .mbm-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .mbm-hue {
+    mix-blend-mode: hue;
+  }
+
+  .mbm-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .mbm-color {
+    mix-blend-mode: color;
+  }
+
+  .mbm-luminosity {
+    mix-blend-mode: luminosity;
+  }

@@ -1,0 +1,293 @@
+/*
+  Theme Name: Theme
+  Theme URI: https://www.llos.co/
+  Author: LLOS&
+  Author URI: https://llos.co
+  Description: Theme template
+  Version: 0.1.3
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: llos
+*/
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('assets/fonts/PlayfairDisplay-Italic.eot');
+  src: url('assets/fonts/PlayfairDisplay-Italic_.eot#iefix') format('embedded-opentype'), url('assets/fonts/PlayfairDisplay-Italic.woff2') format('woff2'), url('assets/fonts/PlayfairDisplay-Italic.woff') format('woff'), url('assets/fonts/PlayfairDisplay-Italic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('assets/fonts/PlayfairDisplay-Regular.eot');
+  src: url('assets/fonts/PlayfairDisplay-Regular_.eot#iefix') format('embedded-opentype'), url('assets/fonts/PlayfairDisplay-Regular.woff2') format('woff2'), url('assets/fonts/PlayfairDisplay-Regular.woff') format('woff'), url('assets/fonts/PlayfairDisplay-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Regular.eot');
+  src: url('assets/fonts/Poppins-Regular_.eot#iefix') format('embedded-opentype'), url('assets/fonts/Poppins-Regular.woff2') format('woff2'), url('assets/fonts/Poppins-Regular.woff') format('woff'), url('assets/fonts/Poppins-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Copernicus-Book';
+  src: url('assets/fonts/Copernicus-Book.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Bold.eot');
+  src: url('assets/fonts/Poppins-Bold_.eot#iefix') format('embedded-opentype'), url('assets/fonts/Poppins-Bold.woff2') format('woff2'), url('assets/fonts/Poppins-Bold.woff') format('woff'), url('assets/fonts/Poppins-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*,
+body {
+  outline: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  letter-spacing: 0.05em;
+}
+
+
+
+.a-slide { transition: 1s; }
+.a-slider { transition: 1s; }
+
+html.is-animating .a-slide { transform: translate3d(0, 100vh, 0); }
+html.is-animating .a-slider { transform: translate3d(120%, 0, 0); }
+html.to-single-orange { background: rgb(239, 140, 52); }
+html.to-single-night { background: rgb(10, 21, 42); }
+html.to-single-pale { background: rgb(236, 236, 236); }
+
+.comercial {
+  left: 0;
+  z-index: 1;
+}
+
+.editorial {
+  left: 33.3333%;
+  z-index: 2;
+}
+
+.special {
+  left: 66.6666%;
+  z-index: 3;
+}
+
+.left-40 { left: 35px; }
+.left-80 { left: 70px; }
+.left-140 { left: calc(100% - 35px); }
+.left-180 { left: calc(100% - 70px); }
+
+.comercial-mob {
+  top: 0;
+  z-index: 1;
+}
+
+.editorial-mob {
+  top: 30%;
+  z-index: 2;
+}
+
+.special-mob {
+  top: 60%;
+  z-index: 3;
+}
+
+.arrow-mob svg {
+  width: 15px;
+  height: 19px;
+}
+
+.top-87 { top: 90%; }
+.top-83 { top: 86%; }
+.top-4 { top: 4%; }
+.top-8 { top: 8%; }
+
+.cross-mob svg {
+  width: 19px;
+  height: 19px;
+}
+
+.logo-mb svg {
+  width: 40px;
+}
+
+.blockaf {
+  width: 100%;
+}
+
+.swiper-visible:hover .swiper-container-home {
+  opacity: 1;
+}
+
+.about,
+.about-mob {
+  top: 100%;
+}
+
+.about-up {
+  top: 3rem !important;
+  height: 100vh !important;
+}
+
+.columns {
+  column-count: 2;
+}
+
+.visibleaf {
+  visibility: visible !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .columns { column-count: 3; }
+}
+
+@media only screen and (min-width: 1200px) {
+  .columns { column-count: 5; }
+}
+
+.top-12 {
+  top: 18%;
+}
+
+.swiper-container-home {
+  opacity: 0;
+}
+
+.about-content a,
+.about-content a:hover,
+.about-content a:visited {
+  color: black;
+}
+
+.logo svg {
+  width: 240px;
+}
+
+.change-bg {
+  -webkit-transition: background-color 0.3s ease-out;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.to-white {
+  background: rgba(255, 255, 255, 1);
+}
+
+.cross svg {
+  width: 29px;
+  height: 28px;
+}
+
+.width-25 svg {
+  width: 26px;
+  height: 26px;
+}
+
+.width-29 svg {
+  width: 29px;
+  height: 28px;
+}
+
+.pin-4 {
+  top: 1.5rem;
+}
+
+.arrow-left svg,
+.arrow-right svg {
+  width: 28px;
+}
+
+.more-content svg {
+  width: 23px;
+}
+
+.thumb img {
+  max-height: 90%;
+}
+
+.lg-desktop-grid .lg-row,
+.lg-column-wrap {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.lg-phone-grid .lg-row {
+  height: auto;
+}
+
+.lg-phone-grid .lg-row:first-child .lg-row-inner {
+  margin-top: 35vh;
+  height: 60vh !important;
+}
+
+.lg-row-empty {
+  padding-bottom: 0 !important;
+}
+
+.cursor-up { cursor: url('../depasquale/assets/img/arrow-up.png'), auto; }
+.cursor-down { cursor: url('../depasquale/assets/img/arrow-down.png'), auto; }
+.cursor-upw { cursor: url('../depasquale/assets/img/arrow-upw.png'), auto; }
+.cursor-downw { cursor: url('../depasquale/assets/img/arrow-downw.png'), auto; }
+
+/*
+.lg-grid .lg-row:first-child img, .lg-grid .lg-row:first-child .lg-col {
+  max-height: 80%;
+  width: auto;
+  text-align:center;
+}
+
+.lg-grid .lg-row:first-child img {
+  text-align:center;
+  margin: 0 auto;
+} */
+
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+.copy-text strong {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.copy-text a,
+.copy-text a:hover {
+  color: black;
+}
+
+.amagat:hover .swiper-container-home {
+  opacity: 0 !important;
+}
+
+/* .lg-grid .lg-row:first-child, .lg-row:first-child .lg-100vh .lg-row-inner, .lg-row:first-child .lg-100vh .lg-column-wrap {
+  margin-top: -6vh;
+  height: 82vh !important;
+  min-height: 82vh !important;
+} */
+
+@media (max-width: 767px) {
+  .lg-phone-grid .lg-row,
+  .lg-phone-grid .lg-row .fp-tableCell,
+  .lg-phone-grid .lg-row:first-child .lg-row-inner,
+  .lg-desktop-grid .lg-row,
+  .lg-column-wrap {
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  .lg-phone-grid .lg-row:first-child .lg-row-inner { margin-top: 0; }
+}
