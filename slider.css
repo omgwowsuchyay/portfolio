@@ -1,0 +1,193 @@
+@font-face {
+font-family: DomaineDisp;
+font-weight: normal;
+src: url(https://cdn.statically.io/gh/AlainBarrios/Fonts/b41a05199c312e4fada6cf977d40d76f2534e306/DomaineDisp-Regular.otf?raw=true);
+}
+
+@charset "utf-8";
+.slide_block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100vh
+}
+.slide_block .slide_area {
+  display: flex
+}
+.slide_block .slide_area .slide {
+  position: relative;
+  padding-top: 60px;
+  height: 100vh;
+  height: -webkit-calc(100vh - 60px);
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center
+}
+.slide_block .slide_area .slide .column {
+  width: 72.093333333vw;
+  text-align: center
+}
+.slide_block .slide_area .slide .column a {
+  padding: 0 8.19444444vw;
+  display: block;
+  text-decoration: none
+}
+.slide_block .slide_area .slide .column:first-of-type {
+  padding-left: 14.0277777vw
+}
+.slide_block .slide_area .slide .column:last-of-type {
+  padding-right: 14.0277777vw
+}
+.slide_block .slide_area .slide .column a figure {
+  background: #ccc;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55.487vh;
+  overflow: hidden
+}
+.slide_block .slide_area .slide .column a figure span.image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e2dfd9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: scale(1.1);
+  -webkit-transition: all .8s 0ms ease;
+  -moz-transition: all .8s 0ms ease;
+  transition: all .8s 0ms ease
+}
+.slide_block .slide_area .slide .column a:hover figure span.image {
+  transform: scale(1);
+  border: 20px solid crimson;
+  transition: all .8s 0ms ease
+}
+.slide_block .slide_area .slide .column a .textarea {
+  padding-top: 24px
+}
+.slide_block .slide_area .slide .column a .textarea .title {
+  line-height: 1.55;
+  font-weight: 300;
+  letter-spacing: .4em;
+  margin: .4em 0;
+  font-size: 1em;
+  text-transform: uppercase;
+    color: crimson;
+    font-family: orpheus pro;
+}
+@media only screen and (min-width:1280px) {
+  .slide_block .slide_area .slide .column a .textarea .title {
+    font-size: 1.25vw
+  }
+}
+@media only screen and (max-width:768px) {
+  .slide_block {
+    height: 100vh
+  }
+  .slide_block .slide_area {
+    display: flex
+  }
+  .slide_block .slide_area .slide {
+    align-items: start;
+    padding-top: 120px
+  }
+  .slide_block .slide_area .slide .column {
+    width: 84vw;
+    text-align: center
+  }
+  .slide_block .slide_area .slide .column a {
+    padding: 0 2vw;
+    display: block;
+    text-decoration: none
+  }
+  .slide_block .slide_area .slide .column:first-of-type {
+    padding-left: 8vw
+  }
+  .slide_block .slide_area .slide .column:last-of-type {
+    padding-right: 8vw
+  }
+  .slide_block .slide_area .slide .column a figure {
+    background: #ccc;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55.487vh;
+    overflow: hidden
+  }
+  .slide_block .slide_area .slide .column a .textarea {
+    padding-top: 24px
+  }
+  .slide_block .slide_area .slide .column a .textarea .title {
+    line-height: 1.55;
+    font-weight: 300;
+    letter-spacing: .4em;
+    margin: .4em 0;
+    font-size: 16px;
+    text-transform: uppercase
+  }
+}
+.hero_text_left_block {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 172px
+}
+@media only screen and (max-width:768px) {
+  .hero_text_left_block {
+    padding-top: 100px
+  }
+}
+.hero_text_left_min_block {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 13.8889vw;
+  padding-bottom: 13.8889vw
+}
+.hero_text_left_min_block.min {
+  padding-top: 6.8889vw;
+  padding-bottom: 6.8889vw
+}
+@media only screen and (max-width:768px) {
+  .hero_text_left_min_block {
+    padding-top: 100px;
+    padding-bottom: 100px
+  }
+  .hero_text_left_min_block.min {
+    padding-top: 100px;
+    padding-bottom: 100px
+  }
+}
+.text_block {
+  position: relative;
+  width: 100%
+}
+.text_min_block {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 13.88888888888889vw
+}
+.contact_block {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100px
+}
+@media only screen and (max-width:768px) {
+  .contact_block {
+    padding-bottom: 100px
+  }
+}

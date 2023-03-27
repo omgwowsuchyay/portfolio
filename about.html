@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+<link rel="stylesheet" href="slider.css">    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <style >
+
+    @font-face {
+   font-family: DomaineDisp;
+   font-weight: normal;
+   src: url(https://cdn.statically.io/gh/AlainBarrios/Fonts/b41a05199c312e4fada6cf977d40d76f2534e306/DomaineDisp-Regular.otf?raw=true);
+ }
+
+ h2{
+   font-family: DomaineDisp!important;
+ }
+
+ #logo{
+   font-size: 3em
+   font-family: DomaineDisp!important;
+   color: #c4c4c4!important;
+ }
+
+    .slide_block .slide_area .slide .column:first-of-type{
+      padding-left: 0%!important;
+      left: -25vw!important;
+    }
+
+    .slide_block .slide_area .slide .column a figure{
+      background: #ccc;
+position: relative;
+left: 0;
+width: 100%;
+height: 65vh;
+overflow: hidden;
+    }
+    .slide_block .slide_area .slide .column{
+      padding-top: 5vh;
+    }
+
+    </style>
+    <style>
+
+
+        .cont {
+            display: flex;
+            height: 100vh;
+        }
+@media screen and (max-width: 767px) {
+      .cont{
+        display:block;
+      }
+}
+        .left {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .right {
+            flex: 2;
+            overflow-y: scroll;
+            padding: 20px;
+        }
+
+        .placeholder {
+            width: 100%;
+            padding-top: 66.66%; /* 3:2 aspect ratio */
+            background-color: #ddd;
+            margin-bottom: 20px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  }
+          .lightbox img {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: cover;
+        border: 5px solid #fff;
+    }
+
+    .lightbox-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .portfolio-page{
+      padding-top: 12vh;
+    }
+
+  </style>
+
+  
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+
+    <div class="menu-tog">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="menu">
+        <div class="links">
+            <ul>
+                <li class="menu-wrap"><a href="index.html">Works/<span>01</span></a></li>
+                <li class="menu-wrap"><a href="#">About/<span>02</span></a></li>
+                <li class="menu-wrap"><a href="https://kristoff.substack.com/">Blog/<span>03</span></a></li>
+                <li class="menu-wrap"><a href="contact.html">Contact/<span>04</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header">
+        <span class="">
+          <a href="index.html" style="text-decoration:none;">
+            <h1 style="font-family:DomaineDisp; color:#b8b8b8!important;    letter-spacing: 0.157rem;font-size: 3em;
+
+
+    font-weight: 400;
+    " >
+  KRISTOFF D'ORIA
+                </h1></a>
+        </span>
+    </div>
+
+    <div class="cont">
+        <div class="left">
+          <div class="project-description-container portfolio-page">
+              <aside class="top-0 flex-col justify-center hidden w-full py-20 pt-64 mb-auto text-center md:w-1/3 md:pr-20 md:sticky md:flex md:h-screen"><header class="flex w-full"><div class="flex items-center w-full"><div class="flex flex-col flex-1 space-y-4"><nav class="flex flex-col w-full col-span-5 text-center"><span><span class="block caps">EMAIL</span> <a href="mailto:studio@elicyon.com" class="block transition-opacity duration-300 hover:opacity-50">STUDIO@ELICYON.COM</a></span><span><span class="block caps">Telephone</span> <a href="tel:+4402037720011" class="block transition-opacity duration-300 hover:opacity-50">+44 (0) 203 772 0011</a></span></nav><nav class="flex flex-col w-full col-span-5 text-center"><span><span class="block caps">EMAIL</span> <a href="mailto:careers@elicyon.com" class="block transition-opacity duration-300 hover:opacity-50">CAREERS@ELICYON.COM</a></span><span><span class="block caps">Telephone</span> <a href="tel:+4402037720011" class="block transition-opacity duration-300 hover:opacity-50">+44 (0) 203 772 0011</a></span></nav><nav class="flex flex-col w-full col-span-5 text-center"><span><span class="block caps">Location</span> <div data-v-4ef557dc=""><p data-v-4ef557dc=""><span data-v-4ef557dc="" class="caps">1st Floor, Avon House<br data-v-4ef557dc="">Kensington Village<br data-v-4ef557dc="">London, W14 8TS</span></p></div></span></nav></div></div></header> <footer class="flex-col hidden mt-auto text-center md:flex caps"><nav class="flex flex-col"><a href="/press" class="transition-opacity duration-300 hover:opacity-25">Press <br></a> <a href="/services" class="transition-opacity duration-300 hover:opacity-25">Services <br></a> <a href="/team" class="transition-opacity duration-300 hover:opacity-25">Team <br></a> <a href="/careers" class="transition-opacity duration-300 hover:opacity-25">Careers <br></a></nav></footer></aside></div>
+        </div>
+        <div class="right">
+          <div class="flex-1 pt-40 pb-32"><div class="md:hidden"><div data-v-4ef557dc=""><p data-v-4ef557dc=""><span data-v-4ef557dc="" class="block text-center"><span data-v-4ef557dc="" class="caps"><a data-v-4ef557dc="" href="mailto:studio@elicyon.com" target="_blank" rel="noopener">STUDIO@ELICYON.COM</a><a data-v-4ef557dc="" target="_blank" rel="noopener">CAREERS@ELICYON.COM</a><br data-v-4ef557dc=""><br data-v-4ef557dc=""><a data-v-4ef557dc="" href="tel:+4402037720011" target="_blank" rel="noopener">+44 (0) 203 772 0011</a><br data-v-4ef557dc=""></span>1ST FLOOR, AVON HOUSE<br data-v-4ef557dc="">KENSINGTON VILLAGE, LONDON, W14 8TS</span></p></div></div> <div><figure class="w-full py-12"><div class="flex items-center justify-center"><header class="-mt-10"><div data-v-4ef557dc=""><p data-v-4ef557dc=""><span data-v-4ef557dc="" class="block text-center"><span data-v-4ef557dc="" class="title block mx-auto my-12 text-4.5xl leading-tight text-center uppercase md:my-20 md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-6xl md:max-w-ch md:leading-tight font-display">Today's life,<br data-v-4ef557dc="">born <span data-v-4ef557dc="" class="normal-case">of</span> modernity,<br data-v-4ef557dc="">made <span data-v-4ef557dc="" class="normal-case">in the</span> minutiae</span></span></p></div></header></div></figure> <div class="space-y-4 md:space-y-12"><figure class="w-full aspect-w-3 aspect-h-2"><picture class="absolute object-cover object-center w-full h-full"><source type="image/webp" srcset="https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=800&amp;h=521&amp;fm=webp 800w, https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=768&amp;h=500&amp;fm=webp 768w, https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=1280&amp;h=833&amp;fm=webp 1280w" sizes="(max-width: 640px) 125vw, (max-width: 768px) 100vw, 125vw"> <img src="https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=1280&amp;h=833&amp;fm=jpg" srcset="https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=800&amp;h=521&amp;fm=jpg 800w, https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=768&amp;h=500&amp;fm=jpg 768w, https://cdn.sanity.io/images/xlyfbcp3/version-2/0b0a6358592b220938613f0daa581c4f55b2a08a-1478x962.png?w=1280&amp;h=833&amp;fm=jpg 1280w" sizes="(max-width: 640px) 125vw, (max-width: 768px) 100vw, 125vw" width="1478" height="962" loading="lazy"></picture></figure> <div class="text-xl leading-tight md:mt-5"><div data-v-4ef557dc=""><p data-v-4ef557dc=""><span data-v-4ef557dc="" class="block text-xl leading-tight columns">Elicyon is forging a new luxury. Crafting only the most thoughtful and visionary interiors, we pride ourselves on the perennial realisation of extraordinary detail and an unrivaled dedication to material, minutiae and modernity.<br data-v-4ef557dc="">Primed to execute your vision with the utmost expertise, our masterful team spans the creative disciplines – from interior architecture and design, to project management and bespoke craftsmanship – committed to realising your desires through our combined decades of expertise and eclectic experience. Undeterred from the complexity, scale or scene, we approach our global practice with a local mindset; dedicating ourselves to your vision from its creative conception to the project's exquisite completion.</span></p></div></div></div></div> <div class="mt-5"><section><figure class="w-full mt-24 md:mb-12 md:mt-32"><div><div data-v-4ef557dc=""><p data-v-4ef557dc=""><span data-v-4ef557dc="" class="block text-center"><span data-v-4ef557dc="" class="title block mx-auto my-12 text-4.5xl leading-tight text-center uppercase md:my-20 md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-6xl md:max-w-ch md:leading-tight font-display">We approach our global practice with <span data-v-4ef557dc="" class="normal-case">a</span> local mindset</span></span></p></div></div></figure> <div class="flex gap-8 mx-auto mt-12 mb-12 md:mt-20 md:mx-0 md:w-full"><figure class="w-full mt-8"><picture><source type="image/webp" srcset="https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=800&amp;fm=webp 800w, https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=768&amp;fm=webp 768w, https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=676&amp;fm=webp 676w" sizes="(max-width: 640px) 125vw, (max-width: 768px) 100vw, 66vw"> <img src="https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=676&amp;fm=jpg" srcset="https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=800&amp;fm=jpg 800w, https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=768&amp;fm=jpg 768w, https://cdn.sanity.io/images/xlyfbcp3/version-2/9d37928b5ecc61d257fee118e315619b9b517cb4-3239x2160.jpg?w=676&amp;fm=jpg 676w" sizes="(max-width: 640px) 125vw, (max-width: 768px) 100vw, 66vw" loading="lazy"></picture></figure></div> <!----></section></div></div>
+            <!-- Add more placeholders as needed -->
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+    const slider = $(".slider-item");
+slider
+.slick({
+  dots: false,
+  prevArrow: false,
+  nextArrow: false,
+  infinite: true,
+  speed: 1400,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true
+});
+
+slider.on('wheel', (function(e) {
+e.preventDefault();
+
+if (e.originalEvent.deltaY < 0) {
+  $(this).slick('slickNext');
+} else {
+  $(this).slick('slickPrev');
+}
+}));
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js" charset="utf-8"></script>
+
+    <script src="app.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.karimoku-casestudy.com/wp/wp-content/themes/karimoku/assets/js/jquery.libs.js" charset="utf-8"></script>
+    <script src="https://www.karimoku-casestudy.com/wp/wp-content/themes/karimoku/assets/js/ls.unveilhooks.min.js"></script>
+    <script src="https://www.karimoku-casestudy.com/wp/wp-content/themes/karimoku/assets/js/lazysizes.min.js"></script>
+    <script src="https://www.karimoku-casestudy.com/wp/wp-content/themes/karimoku/assets/js/common.js?sdfasdfs" charset="utf-8"></script></body>
+    </html>
